@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    padding-top: 25px;
+    font-family: var(--font2);
+    height: 74px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul {
+    display: flex;
+    margin: 70px;
+    font-size: 18px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 16px;
+    font-family: var(--font1);
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.nav-left ul li a:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.content {
+    display: flex;
+    height: 395px;
+    position: relative;
+    background-image: url("../img/birdbackgroung.jpg");
+    /* background-color: cadetblue; */
+}
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 330px;
+    border-radius: 100%;
+}
+
+.endline-1 {
+    height: 20px;
+    background-color: #ff8ab1;
+}
+
+.home-articles {
+    /* background-color: rgb(221, 180, 213); */
+    font-family: var(--font1);
+    padding-top: 10px;
+}
+
+.home-articles h2 {
+    margin-left: 25px;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-article img {
+    width: 410px;
+}
+
+.home-article:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 0px 25px;
+}
+
+.home-article-content{
+    color: black;
+}
+
+.form-input {
+    padding: 2px 6px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: var(--font1);
+}
+
+.btn {
+    padding: 2px 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(194, 194, 194);
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    background-color: rgb(190, 190, 190);
+    ;
+    font-size: 15px;
+    font-family: var(--font1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
